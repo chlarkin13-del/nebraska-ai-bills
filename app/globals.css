@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --sky-blue: #3B7CB8;
+  --wheat: #F5EDD6;
+  --gold: #D4A843;
+  --charcoal: #2A2A28;
+  --cream: #FDFBF6;
+  --ne-green: #4A7C59;
+  --congress-blue: #2C5F8A;
+  --ne-red: #B84233;
+}
+
+@theme inline {
+  --color-sky-blue: var(--sky-blue);
+  --color-wheat: var(--wheat);
+  --color-gold: var(--gold);
+  --color-charcoal: var(--charcoal);
+  --color-cream: var(--cream);
+  --color-ne-green: var(--ne-green);
+  --color-congress-blue: var(--congress-blue);
+  --color-ne-red: var(--ne-red);
+  --font-serif: var(--font-source-serif);
+  --font-sans: var(--font-dm-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--charcoal);
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.7s ease-out both;
+}
+
+.fade-up-delay-1 {
+  animation: fadeUp 0.7s ease-out 0.15s both;
+}
+
+.fade-up-delay-2 {
+  animation: fadeUp 0.7s ease-out 0.3s both;
+}
+
+.fade-up-delay-3 {
+  animation: fadeUp 0.7s ease-out 0.45s both;
+}
+
+.nav-link:hover {
+  background-color: rgba(59, 124, 184, 0.1);
+}
