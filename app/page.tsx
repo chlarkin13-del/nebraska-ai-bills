@@ -352,7 +352,7 @@ function Bills() {
             billNumber="LB 1083"
             billName="The AI Transparency & Safety Act"
             sponsor="Sen. Tanya Storer (R)"
-            description="This is the big one. LB 1083 would require the largest AI companies to be honest with Nebraskans about the risks of their technology. It doesn't tell companies how to build AI — it just says: tell the public what you're doing to keep people safe."
+            description="LB 1083 would require the largest AI companies to be honest with Nebraskans about the risks of their technology. It doesn't tell companies how to build AI — it just says: tell the public what you're doing to keep people safe."
             provisions={[
               "Publish safety plans explaining how they protect children and the public from serious harm",
               "Report safety incidents to the Nebraska Attorney General when something goes wrong",
