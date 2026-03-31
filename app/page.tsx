@@ -550,15 +550,14 @@ function CTA() {
           className="text-2xl sm:text-3xl font-bold mb-4"
           style={{ fontFamily: "var(--font-source-serif)", color: "#2A2A28" }}
         >
-          How You Can Make a Difference
+          Stay Informed
         </h2>
         <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3a38" }}>
-          Talk to your state senator. Let them know AI safety matters to your
-          family.
+          Stay informed about AI legislation in Nebraska.
         </p>
 
         <Link
-          href="https://nebraskalegislature.gov/senators/senator_find.php"
+          href="https://nebraskalegislature.gov/bills/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block font-semibold px-7 py-3.5 rounded-full text-[15px] mb-8 transition-transform hover:scale-105 active:scale-95"
@@ -568,7 +567,7 @@ function CTA() {
             boxShadow: "0 4px 20px rgba(59,124,184,0.35)",
           }}
         >
-          Find Your State Senator →
+          Track Bills at the Legislature →
         </Link>
 
         <p className="text-sm leading-relaxed" style={{ color: "#6a6a68" }}>
