@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "Nebraska AI Safety — 2026 Legislative Session",
   description:
     "Nebraska lawmakers are taking action on AI safety in 2026. Learn about the bills that protect kids and families from unregulated AI chatbots.",
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     title: "Nebraska AI Safety — 2026 Legislative Session",
     description:
